@@ -6,6 +6,11 @@ public class App {
         q.enqueue(3);
         System.out.println(q.dequeue());
         System.out.println(q.dequeue());
+        q.enqueue(4);
+        q.enqueue(5);
+        q.enqueue(6);
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
         q.display();
     }
 }
